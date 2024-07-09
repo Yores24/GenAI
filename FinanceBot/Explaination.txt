@@ -1,0 +1,30 @@
+This explaination file will contain ki kya project h kya kya krra workflow
+wagera wagera  
+Project h kya-
+1. Project m teen input h jisme hum news article ka link daalenge
+2. Fir hum ek question puchenge related to that
+3. Aur fir woh hume output dega by studying those links
+
+
+Some terms jo isme milenge-
+Vector databases,semantic search, OpenAI wagera wagera
+Embeddings - Help is finding the relevant chunk for the info you want
+Vector database- Help in doing faster search on that data
+
+Classes being used in Langchain-
+
+step 1- Loading data
+    TextLoader- data load krne k liye
+    UnstructuredUrlLoader- Url load krne k liye
+ 
+Step 2- Text spliting
+    We need text splitting because of token size limit toh jo kaam ka h wohi chunk chahiye faltu ka data ni
+    splits(chunk 1 ,chunk 2, chunk 3...)--> merged splits -->overlapping chunks
+
+    CharacterTextSplitter- Splits text based on chunk_size , separator
+    RecursiveCharacterTextSplitter- it also splits but here you can provide a list of separators
+
+Step 3- Embeddings and vector databases
+    SentenceTransformer- yeh Embeddings krne k liye use hoga isme hum all-mpnet-base-v2 model use krre pre trained toh aise h
+    FAISS- helps us to do faster search on our data and choose the appropriate one
+    
