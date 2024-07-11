@@ -1,0 +1,12 @@
+Hey so this is the third project isme hum kya banare h:-
+Converting a question asked by the manager into a SQL query and returning the answer
+for ex: If the manager asks the number of nike shoes in stock so the llm will then convert to a SQL query and return the answer
+
+Tech stack:
+Langchain-Google palm, SQL database,VectorDB (Store vector embeddings)
+
+Concept-Few short learning 
+    You train the model based on fixed prompts and queries and the model works on that 
+    it can fail at some instances when the prompt is very complex. This is basically hard
+    coding the queries with the prompts and then using it in simpler words
+
