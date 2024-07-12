@@ -1,5 +1,5 @@
 # Codellama
 
-![SirCode](Codellama\assets\Screenshot 2024-07-12 121519.png)
+![SirCode](Codellama\assets\Screenshot_2024-07-12_121519.png)
 
-![SirCode](Codellama\assets\Screenshot 2024-07-12 122152.png)
+![SirCode](Codellama\assets\Screenshot_2024-07-12_122152.png)

@@ -2,7 +2,7 @@
 ## Overview
 The Invoice Extractor is a sophisticated tool designed to streamline the process of extracting data from invoices. This application leverages state-of-the-art AI technologies, including Streamlit, LangChain, Gemini Pro Vision, GenAI, and ChromaDB, to deliver accurate and efficient invoice data extraction.
 
-![Invoice Extractor](InvoiceExtractor/assets/Screenshot 2024-07-12 202813.png)
+![Invoice Extractor](InvoiceExtractor/assets/Screenshot_2024-07-12_202813.png)
 
 ## Features
 Streamlit Interface: Provides a user-friendly web interface for uploading invoices and entering prompts.
@@ -13,5 +13,5 @@ ChromaDB: Stores and manages extracted invoice data for quick retrieval and anal
 
 pip install -r requirements.txt
 
-![Example ](InvoiceExtractor/assets/Screenshot 2024-07-12 204054.png)
-![Example ](InvoiceExtractor/assets/Screenshot 2024-07-12 204103.png)
+![Example ](InvoiceExtractor/assets/Screenshot_2024-07-12_204054.png)
+![Example ](InvoiceExtractor/assets/Screenshot_2024-07-12_204103.png)
